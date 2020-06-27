@@ -10,18 +10,18 @@ import SwiftUI
 
 struct ContentView : View {
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading) { // 縦並べ
             Text("Tartle Rock")
                 .font(.title)
-            HStack {
+            HStack { // 横並べ
                 Text("Joshua Tree National Park")
                     .font(.subheadline)
-                Spacer()
+                Spacer() // 横とのスペース
                 Text("California")
                     .font(.subheadline)
             }
         }
-        .padding()
+        .padding() // 四方にスペース
     }
 }
 
