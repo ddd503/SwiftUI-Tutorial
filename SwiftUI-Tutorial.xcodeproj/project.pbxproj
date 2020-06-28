@@ -20,6 +20,7 @@
 		453EAE5624A794E30028DE8A /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453EAE5524A794E30028DE8A /* LandmarkDetail.swift */; };
 		453EAE5824A88C070028DE8A /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453EAE5724A88C070028DE8A /* LandmarkRow.swift */; };
 		453EAE5A24A88CB10028DE8A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453EAE5924A88CB10028DE8A /* Data.swift */; };
+		4545903424A8A05E005CF032 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4545903324A8A05E005CF032 /* LandmarkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		453EAE5524A794E30028DE8A /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		453EAE5724A88C070028DE8A /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		453EAE5924A88CB10028DE8A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		4545903324A8A05E005CF032 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				453EAE5024A7940E0028DE8A /* Resource */,
 				451D62CC22BDF50700DB2DDE /* AppDelegate.swift */,
 				451D62CE22BDF50700DB2DDE /* SceneDelegate.swift */,
+				4545903324A8A05E005CF032 /* LandmarkList.swift */,
 				453EAE5524A794E30028DE8A /* LandmarkDetail.swift */,
 				453EAE5724A88C070028DE8A /* LandmarkRow.swift */,
 				451D62D022BDF50700DB2DDE /* ContentView.swift */,
@@ -201,6 +204,7 @@
 				453EAE4F24A793300028DE8A /* Landmark.swift in Sources */,
 				453EAE5824A88C070028DE8A /* LandmarkRow.swift in Sources */,
 				453EAE5624A794E30028DE8A /* LandmarkDetail.swift in Sources */,
+				4545903424A8A05E005CF032 /* LandmarkList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
