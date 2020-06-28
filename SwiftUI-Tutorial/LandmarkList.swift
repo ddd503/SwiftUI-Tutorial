@@ -12,7 +12,7 @@ struct LandmarkList: View {
     var body: some View {
         NavigationView { // embed in navigation
             List(landmarkData) { (landmark) in
-                NavigationLink(destination: LandmarkDetail()) { // 遷移先のView指定
+                NavigationLink(destination: LandmarkDetail(landmark: landmark)) { // 遷移先のView指定
                     LandmarkRow(landmark: landmark) // 表示セル内容
                 }
                 .navigationBarTitle(Text("Landmarks"))

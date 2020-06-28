@@ -11,13 +11,13 @@ import SwiftUI
 struct ContentView : View {
     var body: some View {
         VStack {
-            MapView()
-                .frame(height: 300) // widthの指定なしなら横幅いっぱいになる
-                .edgesIgnoringSafeArea(.top) // SafeAreaを詰める(無視する)
+//            MapView(coordinate: <#CLLocationCoordinate2D#>)
+//                .frame(height: 300) // widthの指定なしなら横幅いっぱいになる
+//                .edgesIgnoringSafeArea(.top) // SafeAreaを詰める(無視する)
 
-            CircleImage()
-                .offset(y: -85)
-                .padding(.bottom, -85)
+//            CircleImage(image: <#Image#>)
+//                .offset(y: -85)
+//                .padding(.bottom, -85)
 
             VStack(alignment: .leading) { // 縦並べ
                 Text("Tartle Rock")
