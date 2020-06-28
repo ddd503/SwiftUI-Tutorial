@@ -31,11 +31,11 @@ struct Landmark: Hashable, Codable {
     }
 }
 
-//extension Landmark {
-//    var image: Image {
-//        ImageStore.shared.image(name: imageName)
-//    }
-//}
+extension Landmark {
+    var image: Image {
+        ImageStore.shared.image(name: imageName)
+    }
+}
 
 struct Coordinates: Hashable, Codable {
     var latitude: Double
