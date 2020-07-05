@@ -33,6 +33,7 @@
 		4545904A24A8ADE5005CF032 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4545903F24A8ADE5005CF032 /* chilkoottrail.jpg */; };
 		4545904B24A8ADE5005CF032 /* hiddenlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4545904024A8ADE5005CF032 /* hiddenlake.jpg */; };
 		4545904C24A8ADE5005CF032 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4545904124A8ADE5005CF032 /* rainbowlake.jpg */; };
+		4545904E24B19D93005CF032 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4545904D24B19D93005CF032 /* charleyrivers.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		4545903F24A8ADE5005CF032 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		4545904024A8ADE5005CF032 /* hiddenlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiddenlake.jpg; sourceTree = "<group>"; };
 		4545904124A8ADE5005CF032 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
+		4545904D24B19D93005CF032 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 				4545903B24A8ADE5005CF032 /* twinlake.jpg */,
 				4545903E24A8ADE5005CF032 /* umbagog.jpg */,
 				4545903C24A8ADE5005CF032 /* yukon_charleyrivers.jpg */,
+				4545904D24B19D93005CF032 /* charleyrivers.jpg */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				453EAE5324A7943E0028DE8A /* landmarkData.json in Resources */,
 				451D62D622BDF50800DB2DDE /* Preview Assets.xcassets in Resources */,
 				451D62D322BDF50800DB2DDE /* Assets.xcassets in Resources */,
+				4545904E24B19D93005CF032 /* charleyrivers.jpg in Resources */,
 				4545904824A8ADE5005CF032 /* chincoteague.jpg in Resources */,
 				4545904624A8ADE5005CF032 /* twinlake.jpg in Resources */,
 				4545904A24A8ADE5005CF032 /* chilkoottrail.jpg in Resources */,
