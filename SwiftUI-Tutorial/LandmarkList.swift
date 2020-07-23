@@ -9,14 +9,26 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    @State var showFavoritesOnly = true
+
     var body: some View {
         NavigationView { // embed in navigation
-            List(landmarkData) { (landmark) in
-                NavigationLink(destination: LandmarkDetail(landmark: landmark)) { // 遷移先のView指定
-                    LandmarkRow(landmark: landmark) // 表示セル内容
+            // TableView表示
+            List {
+                // スイッチタイプのセル生成
+                Toggle(isOn: $showFavoritesOnly) {
+                    Text("Favorites only")
                 }
-                .navigationBarTitle(Text("Landmarks"))
+                // 同タイプ(landmarkData)セルの連続生成（showFavoritesOnlyバインディングされている？）
+                ForEach(landmarkData) { landmark in
+                    if !self.showFavoritesOnly || landmark.isFavorite {
+                        NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
+                            LandmarkRow(landmark: landmark)
+                        }
+                    }
+                }
             }
+            .navigationBarTitle(Text("Landmarks"))
         }
     }
 }
