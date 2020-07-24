@@ -34,6 +34,7 @@
 		4545904B24A8ADE5005CF032 /* hiddenlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4545904024A8ADE5005CF032 /* hiddenlake.jpg */; };
 		4545904C24A8ADE5005CF032 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4545904124A8ADE5005CF032 /* rainbowlake.jpg */; };
 		4545904E24B19D93005CF032 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4545904D24B19D93005CF032 /* charleyrivers.jpg */; };
+		458AD93724CB0FF6004AC20F /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458AD93624CB0FF6004AC20F /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		4545904024A8ADE5005CF032 /* hiddenlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hiddenlake.jpg; sourceTree = "<group>"; };
 		4545904124A8ADE5005CF032 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		4545904D24B19D93005CF032 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
+		458AD93624CB0FF6004AC20F /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			children = (
 				453EAE4E24A7932F0028DE8A /* Landmark.swift */,
 				453EAE5924A88CB10028DE8A /* Data.swift */,
+				458AD93624CB0FF6004AC20F /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				453EAE5A24A88CB10028DE8A /* Data.swift in Sources */,
 				453EAE4D24A761BA0028DE8A /* MapView.swift in Sources */,
 				451D62CF22BDF50700DB2DDE /* SceneDelegate.swift in Sources */,
+				458AD93724CB0FF6004AC20F /* UserData.swift in Sources */,
 				451D62D122BDF50700DB2DDE /* ContentView.swift in Sources */,
 				453EAE4F24A793300028DE8A /* Landmark.swift in Sources */,
 				453EAE5824A88C070028DE8A /* LandmarkRow.swift in Sources */,
