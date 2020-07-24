@@ -38,6 +38,7 @@ struct LandmarkList_Previews: PreviewProvider {
         Group { // 複数端末でpreview見る
             ForEach(["iPhone SE", "iPhone XS Max", "iPad Pro (12.9-inch)"], id: \.self) { deviceName in
                 LandmarkList()
+                    .environmentObject(UserData())
                     .previewDevice(PreviewDevice(rawValue: deviceName))
                     .previewDisplayName(deviceName)
             }
