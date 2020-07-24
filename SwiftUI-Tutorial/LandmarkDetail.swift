@@ -19,8 +19,9 @@ struct LandmarkDetail: View {
     var body: some View {
         VStack {
             MapView(coordinate: landmark.locationCoordinate)
+                .edgesIgnoringSafeArea(.top) // SafeAreaを詰める(無視する、基本frameいじる前にやる)
                 .frame(height: 300) // widthの指定なしなら横幅いっぱいになる
-                .edgesIgnoringSafeArea(.top) // SafeAreaを詰める(無視する)
+
 
             CircleImage(image: landmark.image)
                 .offset(x: 0, y: -130)
@@ -57,7 +58,6 @@ struct LandmarkDetail: View {
 
             Spacer() // 膨張スペースを入れて全体を上へ詰める
         }
-        .navigationBarTitle(Text(landmark.name), displayMode: .inline)
     }
 }
 
@@ -65,5 +65,7 @@ struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkDetail(landmark: landmarkData[0])
             .environmentObject(UserData())
+            .previewDevice(PreviewDevice(rawValue: "iPhone SE"))
+            .previewDisplayName("iPhone SE")
     }
 }

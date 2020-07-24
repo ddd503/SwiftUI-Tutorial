@@ -19,8 +19,8 @@ struct LandmarkList: View {
                 Toggle(isOn: $userData.showFavoritesOnly) {
                     Text("Favorites only")
                 }
-                // 同タイプ(landmarkData)セルの連続生成（showFavoritesOnlyバインディングされている？）
-                ForEach(landmarkData) { landmark in
+                // 同タイプ(userData.landmarks)セルの連続生成（showFavoritesOnlyバインディングされている？）
+                ForEach(userData.landmarks) { landmark in
                     if !self.userData.showFavoritesOnly || landmark.isFavorite {
                         NavigationLink(destination: LandmarkDetail(landmark: landmark)) {
                             LandmarkRow(landmark: landmark)
